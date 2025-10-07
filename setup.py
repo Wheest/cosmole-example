@@ -1,3 +1,5 @@
+"""Setup script for the cosmole package."""
+
 from setuptools import setup, find_packages
 
 # Read dependencies from requirements.txt

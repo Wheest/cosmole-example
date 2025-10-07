@@ -1,16 +1,17 @@
+"""Convert redshift to comoving distance using astropy and Planck18 cosmology."""
+
 from astropy.cosmology import Planck18 as cosmo
 
 
 def redshift_to_distance(z: float):
-    """
-    Convert redshift to comoving distance using Planck18 cosmology.
+    """Convert redshift to comoving distance using Planck18 cosmology.
 
     Parameters
     ----------
     z : float
         Redshift.
 
-    Returns
+    Returns:
     -------
     float
         Comoving distance in megaparsecs (Mpc).

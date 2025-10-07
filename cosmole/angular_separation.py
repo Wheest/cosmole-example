@@ -1,3 +1,5 @@
+"""Calculate the angular separation between two sky positions."""
+
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 
@@ -5,10 +7,9 @@ import astropy.units as u
 def angular_separation(
     ra1_deg: float, dec1_deg: float, ra2_deg: float, dec2_deg: float
 ):
-    """
-    Calculate the angular separation between two sky positions.
+    """Calculate the angular separation between two sky positions.
 
-    Returns
+    Returns:
     -------
     float
         Angular separation in arcseconds.
