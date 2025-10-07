@@ -2,6 +2,7 @@ import pytest
 from astropy.cosmology import Planck18 as cosmo
 from cosmole import redshift_to_distance
 
+
 def test_redshift_to_distance():
     z = 0.5
     d = redshift_to_distance(z)
