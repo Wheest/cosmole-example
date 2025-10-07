@@ -1,10 +1,11 @@
+"""Convert RA/Dec (ICRS) to Galactic coordinates."""
+
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 
 
 def convert_equatorial_to_galactic(ra_deg: float, dec_deg: float):
-    """
-    Convert RA/Dec (ICRS) to Galactic coordinates.
+    """Convert RA/Dec (ICRS) to Galactic coordinates.
 
     Parameters
     ----------
@@ -13,7 +14,7 @@ def convert_equatorial_to_galactic(ra_deg: float, dec_deg: float):
     dec_deg : float
         Declination in degrees.
 
-    Returns
+    Returns:
     -------
     tuple
         Galactic longitude (l) and latitude (b) in degrees.
