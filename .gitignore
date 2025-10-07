@@ -1,0 +1,25 @@
+# MacOS
+.DS_Store
+
+# IDEs
+.idea
+
+# Logs and temporary files
+*.log
+tmp/
+
+# Python bytecode
+*.py[cod]
+__pycache__/
+
+# Build artifacts
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
